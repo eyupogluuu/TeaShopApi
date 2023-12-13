@@ -1,0 +1,44 @@
+﻿@model List<ResultQuestionDto>
+@{
+    ViewData["Title"] = "questionList";
+    Layout = "~/Areas/Admin/Views/AdminLayout/Index.cshtml";
+}
+
+<h1>Sıkça Sorulan Sorular</h1>
+<br />
+<div class="row">
+	<!-- [ sample-page ] start -->
+	<div class="col-sm-12">
+		<div class="card">
+
+			<div class="card-header">
+				<h5>Soru-Cevap Listesi</h5>
+
+			</div>
+			<div class="card-body">
+				<table class=" table table-bordered">
+					<tr>
+						<th>Soru</th>
+						<th>Cevap</th>
+						<th>Sil</th>
+						<th>Güncelle</th>
+					</tr>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>@item.questionDetail</td>
+							<td>@item.answerDetail.Substring(0,40)...</td>
+							<td><a href="/Admin/Questions/deleteQuestion/@item.questionID" class="btn btn-outline-danger">Sil</a></td>
+							<td><a href="/Admin/Questions/updateQuestion/@item.questionID" class="btn btn-outline-success">Güncelle</a></td>
+
+						</tr>
+					}
+				</table>
+				<br />
+				<a href="/Admin/Questions/addQuestion/" class="btn btn-outline-primary">Yeni Soru Ekle</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+

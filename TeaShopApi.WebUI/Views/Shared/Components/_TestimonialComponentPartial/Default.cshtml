@@ -1,0 +1,26 @@
+﻿@model List<TeaShopApi.WebUI.Dtos.TestimonialDtos.ResultTestimonialDto>
+<div class="clients_section layout_padding">
+	<div id="custum_slider" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="container">
+					<h1 class="clients_taital">Müşterilerimizin Deneyimleri</h1>
+					<p class="clients_text">
+						bizi tercih eden müşterilerimizin fikirleri size bir ilham verebilir
+					</p>
+					@foreach (var item in Model)
+					{
+						<div class="client_img"><img src="@item.testimonialImageUrl" style="height:80px; width80px"></div>
+						<h1 class="louis_text">@item.testimonialComment</h1>
+						<h1 class="smyth_text">@item.testimonialName</h1>
+						<div class="border"></div>
+
+					}
+
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
