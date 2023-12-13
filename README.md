@@ -20,7 +20,7 @@ Asp.Net Core ile dinamik bir Api Projesi Oluşturmak
 ![](https://github.com/eyupogluuu/TeaShopApi/blob/master/TeaShopApiEkranG%C3%B6r/testimoniallist.PNG)<br> <br>
 ![](https://github.com/eyupogluuu/TeaShopApi/blob/master/TeaShopApiEkranG%C3%B6r/addtestimonial.PNG)<br> <br>
 ![](https://github.com/eyupogluuu/TeaShopApi/blob/master/TeaShopApiEkranG%C3%B6r/statistic.PNG)<br> <br>
-![](https://github.com/eyupogluuu/TeaShopApi/blob/master/TeaShopApiEkranG%C3%B6r/homepage1.PNG)<br> <br>
+![](https://github.com/eyupogluuu/TeaShopApi/blob/master/homepage.PNG)<br> <br>
 ![](https://github.com/eyupogluuu/TeaShopApi/blob/master/TeaShopApiEkranG%C3%B6r/homepage3.PNG)<br> <br>
 ![](https://github.com/eyupogluuu/TeaShopApi/blob/master/TeaShopApiEkranG%C3%B6r/homepage5.PNG)<br> <br>
 ![](https://github.com/eyupogluuu/TeaShopApi/blob/master/TeaShopApiEkranG%C3%B6r/apischema.PNG)<br> <br>
