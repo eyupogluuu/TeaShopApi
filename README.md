@@ -5,20 +5,21 @@
 **Kullanılan Teknolojiler:**<br>
 * Swagger<br>
 * ASP.Net Web Api<br>
-* N-Katmanlı Mimari
+* N-Katmanlı Mimari<br>
+* Area<br>
 * ASP.Net Core MVC<br>
 * Code First<br>
 
-
+**Amaç:**<br>
+Asp.Net Core ile dinamik bir Api Projesi Oluşturmak
+<br>
 
 **Ekran Resimleri:**<br>
 
 
-![](https://github.com/eyupogluuu/TatilSeyahatSitesi/blob/master/giriş.PNG)<br> <br>
+![]()<br> <br>
 
 
 
-**Amaç**
-Bu sitenin yapımında bir işletmenin içecek, müşteri, adres bilgilerini güncellemek eklemek ve listelemek amaçlanmıştır..
-<br>
+
 
